@@ -8,10 +8,9 @@ In all other dimensions, the sphere packing has not been solved. There is not mu
 
 ## What is being computed in the code?
 
-The mathematical formulation of this repository is the following: Given dimension $D$, solve $2N$ non-linear equations below for $2N$ variables,
-\begin{align}
-f_k(0) + \sum_{n=1}^{N} d_n f_k(\Delta_n) = 0 \qquad \text{for}\; 1 \le k \le 2N
-\end{align}
+The mathematical formulation of this repository is the following: Given dimension $D$, solve $2N$ non-linear equations below for $2N$ variables,\\
+$f_k(0) + \sum_{n=1}^{N} d_n f_k(\Delta_n) = 0 \qquad \text{for}\; 1 \le k \le 2N$\\
+
 
 
 
