@@ -3,7 +3,7 @@ This repository includes Julia and Mathematica notebooks for calculating the upp
 
 ##References
 
-{\bf {High-dimensional sphere packing and the modular bootstrap}}, Nima Afkhami-Jeddi, Henry Cohn, Thomas Hartman, David de Laat, Amirhossein Tajdini,
+**High-dimensional sphere packing and the modular bootstrap**, Nima Afkhami-Jeddi, Henry Cohn, Thomas Hartman, David de Laat, Amirhossein Tajdini,
 June 3, 2020, arXiv preprint:  2006.02560 , Published in: JHEP 12 (2020) 066
 
 
