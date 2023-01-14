@@ -11,7 +11,7 @@ In all other dimensions, the sphere packing has not been solved. There is not mu
 The mathematical formulation of this repository is the following: Given dimension $D$, solve $2N$ non-linear equations below for $2N$ variables,
 $$f_k(0) + \sum_{n=1}^{N} d_n f_k(\Delta_n) = 0 \qquad \text{for}\qquad 1 \le k \le 2N$$,
 where 
-$$f_k(\Delta) = L^{D/2-1}(4\pi \Delta) \exp^{-2 \pi \Delta}$$
+$$f_k(\Delta) = {L^{D/2-1}}\_{2*k-1} (4\pi \Delta) e^{-2 \pi \Delta}$$
 
 
 
