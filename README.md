@@ -1,5 +1,5 @@
 # Linear Programming Bound on Sphere Packing 
-This repository includes Julia and Mathematica notebooks for calculating the upper bound on the packing density of spheres in different dimensions. I used  similar notebooks to obtain the linear programming bound on packing density in high dimensions referenced below. For more info about the background of the project and description of the code, see the note file.
+This repository includes Julia and Mathematica notebooks for calculating the upper bound on the packing density of spheres in various dimensions. I used  similar notebooks to obtain the linear programming bound on packing density in high dimensions which is referenced below. For more info about the background of the project and description of the code, see the note file.
 
 ## References
 
