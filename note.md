@@ -20,16 +20,16 @@ We choose the variable $N$. The upper bound on density improves as $N$ increases
 
 ## A few considerations for using the code
 
-The code computes packing density by solving the above-mentioned non-linear equations. The goal for any $D$ is to solve $Delta_1$ for a higher $N$.
+The code computes packing density by solving the above-mentioned non-linear equations. The goal for any $D$ is to solve $\Delta_1$ for a higher $N$.
 I solve them using Newton's method. Newton's method is fast and stable, but it requires matrix inversion, and every element of the matrix has to be
 stored with high precision. I have tried gradient descent (without Momentum or Adam) in the past, but the convergence was very slow.
 
-The values of $\Delta_i$ are extremely sensitive to an initial guess when solving equations. In particular, if we sort $\Delta_i$, 
-The equations would not converge unless I guessed the first few $Delta_i$ with mathematical precision $10^{-3}$ as fractional error.
+The problem is very sensitive to an initial guess for $\Delta_i$ when solving equations. In particular, if we sort $\Delta_i$, 
+the equations would not converge unless one guesses the first few $Delta_i$ with mathematical precision $10^{-3}$ as the fractional error.
 In practice, once $N \sim D$, the bounds for a given $D$ are converged. Due to the non-linear nature of equations,
-they have to be solved with high precision computing. For $D=2000$, I used 1000-digit precision.
-I used the Mathematica file for this problem, which can do arbitrary-precision arithmetic.
-I repeated the calculation partially using Python's mpmath library. However, I found matrix inversion in mpmath to be much slower than in Mathematica and Julia.
+they have to be solved with high precision computing. For $D=2000$, I used about 1000-digit precision.
+I originally used the Mathematica file for this problem in writing the paper, which can do arbitrary-precision arithmetic.
+I repeated the calculation using Python's mpmath library. However, I found matrix inversion in mpmath to be much slower than in Mathematica and Julia.
 Since Mathematica is not open-source, I share the Julia notebook here. 
 
 ## References
