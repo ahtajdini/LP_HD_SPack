@@ -126,7 +126,3 @@ end
 
 
 end
-
-loss=BigFloat(0.2)
-
-10^(20)
