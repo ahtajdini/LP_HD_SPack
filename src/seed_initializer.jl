@@ -1,5 +1,9 @@
 
-
+""" This module computes returns the value of first three roots solving equations when N=3. 
+These roots become seed for solving higher value of N that gives more accurate result for Delta_1 which is the objective.
+These first roots as a function of packing dimension D are space piece-wise. There are two distinct regime corresponding to low D and high D.
+These two regimes give distinct slopes m and intercept b. These two regimes are found by solving equations for N=3 in the range of D=4-4000.
+It is possible that for larger values of D one has to find a separate slope and intercept. """
 
 module rSeed
 
