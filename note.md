@@ -16,7 +16,7 @@ The mathematical formulation of this repository is the following: Given dimensio
 $$f_k(0) + \sum_{n=1}^{N} d_n f_k(\Delta_n) = 0 \qquad \text{for}\qquad 1 \le k \le 2N$$
 where 
 $$f_k(\Delta) = L\_{2k-1}^{D/2-1} (4\pi \Delta) e^{-2 \pi \Delta}$$
-and ${L^{D/2-1}}\_{2k-1}$ are Legendre Polynomials. The unknowns are $\Delta_n, d_{\Delta_n}$ for $n=1,2,\cdots, N$. Solving these equations for $\Delta_1$ gives an upper bound on packing density $\rho$, defined as 
+and ${L^{D/2-1}}\_{2k-1}$ are Legendre Polynomials. The unknowns are $\Delta_n, d_{\Delta_n}$ for $n=1,2,\cdots, N$. Solving these equations for $\Delta_1$ gives an upper bound on packing density $\rho$,
 $$\rho \le \frac{\pi^{D/2}}{(D/2)!} \left(\frac{r}{2}\right)^{D},\qquad r = \sqrt{2\Delta_1}$$
 We choose the variable $N$. The upper bound on density improves as $N$ increases, however we need to solve more non-linear equations.
 
